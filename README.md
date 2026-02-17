@@ -12,6 +12,15 @@ Claude Code doesn't natively load `.env` files. You'd have to either:
 
 ## Install
 
+### From marketplace (recommended)
+
+```
+/plugin marketplace add innolabsdev/innolabs-plugins
+/plugin install claude-dotenv@innolabs-plugins
+```
+
+### Manual
+
 ```bash
 git clone https://github.com/jflaflamme/claude-dotenv.git ~/.claude/plugins/claude-dotenv
 ```
