@@ -1,0 +1,17 @@
+{
+  "description": "Load .env files into Claude Code sessions",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/load-dotenv.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "claude-dotenv",
+  "description": "Automatically load .env files into Claude Code sessions",
+  "version": "1.0.0",
+  "author": { "name": "Jeff Laflamme" },
+  "repository": "https://github.com/jflaflamme/claude-dotenv",
+  "keywords": ["dotenv", "env", "environment"],
+  "license": "MIT"
+}
